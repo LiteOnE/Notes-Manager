@@ -1,5 +1,5 @@
 {
-  "name": "project-notes-manager",
+  "name": "notes-manager",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
@@ -7,20 +7,22 @@
     "@shopify/draggable": "^1.0.0-beta.8"
   },
   "devDependencies": {
-    "electron-nightly": "^7.0.0-nightly.20190629"
+    "electron-nightly": "^7.0.0-nightly.20190629",
+    "google-fonts-offline":"^0.1.5",
+    "sass": "^1.22.3"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "dlfonts": "goofoffline \"https://fonts.googleapis.com/css?family=Arvo|Montserrat\"",
     "start": "sass src/scss:src/css && electron ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LiteOnE/Project-Notes-Manager.git"
+    "url": "git+ssh://git@github.com:LiteOnE/Notes-Manager.git"
   },
-  "author": "",
+  "author": "Luty",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/LiteOnE/Project-Notes-Manager/issues"
+    "url": "https://github.com/LiteOnE/Notes-Manager/issues"
   },
-  "homepage": "https://github.com/LiteOnE/Project-Notes-Manager#readme"
+  "homepage": "https://github.com/LiteOnE/Notes-Manager#readme"
 }
