@@ -1,0 +1,26 @@
+{
+  "name": "project-notes-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "@shopify/draggable": "^1.0.0-beta.8"
+  },
+  "devDependencies": {
+    "electron-nightly": "^7.0.0-nightly.20190629"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass scss:src/css && electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiteOnE/Project-Notes-Manager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LiteOnE/Project-Notes-Manager/issues"
+  },
+  "homepage": "https://github.com/LiteOnE/Project-Notes-Manager#readme"
+}

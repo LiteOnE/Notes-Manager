@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Project Notes Manager</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="../fonts/fonts.css">
+
+    <script>
+        window.$ = require("../libs/jquery-3.4.1.min.js");
+    </script>
+    <script src="js/index.js"></script>
+
+
+</head>
+
+<body>
+    <div class="title-bar">
+        <div class="title-bar-options">
+            <div class="title-bar-option" id="new-btn">New</div>
+            <div class="title-bar-option" id="open-btn">Open</div>
+            <div class="title-bar-option" id="save-btn">Save</div>
+        </div>
+        <div class="title-bar-appname">Project Notes Manager</div>
+        <div class="title-bar-btns">
+            <div class="title-bar-btn" id="min-btn">&#xE921;</div>
+            <div class="title-bar-btn" id="max-btn">&#xE922;</div>
+            <div class="title-bar-btn" id="close-btn">&#xE8BB;</div>
+        </div>
+    </div>
+
+    <div class="context-bar">
+        Delete Note
+    </div>
+
+    <div class="left-area">
+        <h1 class="title"></h1>
+        <div class="notes-wrapper"></div>
+    </div>
+
+    <div class="right-area">
+        <div class="tags-section-title">
+            Tags
+        </div>
+        <input class="tags-input" id="tags-input">
+    </div>
+
+
+</body>
+
+</html>
