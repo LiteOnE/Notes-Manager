@@ -11,7 +11,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "sass scss:src/css && electron ."
+    "start": "sass src/scss:src/css && electron ."
   },
   "repository": {
     "type": "git",
