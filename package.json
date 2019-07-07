@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "electron-nightly": "^7.0.0-nightly.20190629",
-    "google-fonts-offline":"^0.1.5",
+    "google-fonts-offline": "^0.1.5",
     "sass": "^1.22.3"
   },
   "scripts": {
