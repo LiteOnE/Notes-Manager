@@ -12,7 +12,7 @@
     "sass": "^1.22.3"
   },
   "scripts": {
-    "dlfonts": "goofoffline \"https://fonts.googleapis.com/css?family=Arvo|Montserrat\"",
+    "prepare-fonts": "goofoffline \"https://fonts.googleapis.com/css?family=Arvo|Montserrat\"",
     "start": "sass src/scss:src/css && electron ."
   },
   "repository": {
